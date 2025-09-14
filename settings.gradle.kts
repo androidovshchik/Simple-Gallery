@@ -15,6 +15,7 @@ dependencyResolutionManagement {
         mavenCentral()
         maven { setUrl("https://jitpack.io") }
         maven(url = "https://artifactory.img.ly/artifactory/imgly")
+        maven(url = "https://maven.scijava.org/content/repositories/public")
     }
 }
 
